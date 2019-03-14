@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Git," />
+  <meta name="keywords" content="vue," />
 
 
 
@@ -79,18 +79,20 @@
 
 
 
-<meta name="description" content="关键字 vim或vi的使用git commit 不输入 -m 以及后面的内容会进入vim模式 vi &amp;amp; vim 有两种工作模式：（1） 命令模式：接受、执行 vi &amp;amp; vim 操作命令的模式，打开文件后的默认模式； （2） 编辑模式：对打开的文件内容进行 增、删、改 操作的模式； 在编辑模式下按下 ESC 键，回退到命令模式。 创建、打开文件：$ vi [filename]（1）使">
-<meta name="keywords" content="Git">
+<meta name="description" content="1. Vue的生命周期​    简单的说生命周期就是事物从产生到消失的一个时间过程。那么vue的生命周期就是从其被创建到销毁的过程，其中包含了开始创建、初始化数据、编译模板、挂载dom（渲染） ，渲染-&amp;gt;更新-&amp;gt;渲染、销毁（卸载）等一系列过程。​    那么其中的钩子函数都担负着自己的职责，较为常用的就是created和mounted函数，可以在函数中编写相关的业务逻辑。 2. 钩子函">
+<meta name="keywords" content="vue">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Learn Git">
-<meta property="og:url" content="http://yoursite.com/2019/03/10/A-1-learn git/index.html">
+<meta property="og:title" content="vue生命周期">
+<meta property="og:url" content="http://yoursite.com/2018/09/30/Vue生命周期/index.html">
 <meta property="og:site_name" content="思理博客">
-<meta property="og:description" content="关键字 vim或vi的使用git commit 不输入 -m 以及后面的内容会进入vim模式 vi &amp;amp; vim 有两种工作模式：（1） 命令模式：接受、执行 vi &amp;amp; vim 操作命令的模式，打开文件后的默认模式； （2） 编辑模式：对打开的文件内容进行 增、删、改 操作的模式； 在编辑模式下按下 ESC 键，回退到命令模式。 创建、打开文件：$ vi [filename]（1）使">
+<meta property="og:description" content="1. Vue的生命周期​    简单的说生命周期就是事物从产生到消失的一个时间过程。那么vue的生命周期就是从其被创建到销毁的过程，其中包含了开始创建、初始化数据、编译模板、挂载dom（渲染） ，渲染-&amp;gt;更新-&amp;gt;渲染、销毁（卸载）等一系列过程。​    那么其中的钩子函数都担负着自己的职责，较为常用的就是created和mounted函数，可以在函数中编写相关的业务逻辑。 2. 钩子函">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-14T14:36:16.818Z">
+<meta property="og:image" content="https://github.com/tiansili/tiansili.github.io/raw/master/images/vue生命周期.png">
+<meta property="og:updated_time" content="2018-10-08T14:23:30.592Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Learn Git">
-<meta name="twitter:description" content="关键字 vim或vi的使用git commit 不输入 -m 以及后面的内容会进入vim模式 vi &amp;amp; vim 有两种工作模式：（1） 命令模式：接受、执行 vi &amp;amp; vim 操作命令的模式，打开文件后的默认模式； （2） 编辑模式：对打开的文件内容进行 增、删、改 操作的模式； 在编辑模式下按下 ESC 键，回退到命令模式。 创建、打开文件：$ vi [filename]（1）使">
+<meta name="twitter:title" content="vue生命周期">
+<meta name="twitter:description" content="1. Vue的生命周期​    简单的说生命周期就是事物从产生到消失的一个时间过程。那么vue的生命周期就是从其被创建到销毁的过程，其中包含了开始创建、初始化数据、编译模板、挂载dom（渲染） ，渲染-&amp;gt;更新-&amp;gt;渲染、销毁（卸载）等一系列过程。​    那么其中的钩子函数都担负着自己的职责，较为常用的就是created和mounted函数，可以在函数中编写相关的业务逻辑。 2. 钩子函">
+<meta name="twitter:image" content="https://github.com/tiansili/tiansili.github.io/raw/master/images/vue生命周期.png">
 
 
 
@@ -120,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/10/A-1-learn git/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/30/Vue生命周期/"/>
 
 
 
 
 
-  <title>Learn Git | 思理博客</title>
+  <title>vue生命周期 | 思理博客</title>
   
 
 
@@ -253,7 +255,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/10/A-1-learn git/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/30/Vue生命周期/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tiansili">
@@ -270,7 +272,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Learn Git</h1>
+          <h1 class="post-title" itemprop="name headline">vue生命周期</h1>
         
 
         <div class="post-meta">
@@ -282,8 +284,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-10T00:00:00+08:00">
-                2019-03-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-30T08:14:26+08:00">
+                2018-09-30
               </time>
             
 
@@ -305,8 +307,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Git/" itemprop="url" rel="index">
-                    <span itemprop="name">Git</span>
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
                   </a>
                 </span>
 
@@ -342,76 +344,16 @@
       
 
       
-        <h4 id="关键字-vim或vi的使用"><a href="#关键字-vim或vi的使用" class="headerlink" title="关键字 vim或vi的使用"></a>关键字 vim或vi的使用</h4><p>git commit 不输入 -m 以及后面的内容会进入vim模式</p>
-<h5 id="vi-amp-vim-有两种工作模式："><a href="#vi-amp-vim-有两种工作模式：" class="headerlink" title="vi &amp; vim 有两种工作模式："></a>vi &amp; vim 有两种工作模式：</h5><p>（1） 命令模式：接受、执行 vi &amp; vim 操作命令的模式，打开文件后的默认模式；</p>
-<p>（2） 编辑模式：对打开的文件内容进行 增、删、改 操作的模式； 在编辑模式下按下 ESC 键，回退到命令模式。</p>
-<h5 id="创建、打开文件：-vi-filename"><a href="#创建、打开文件：-vi-filename" class="headerlink" title="创建、打开文件：$ vi [filename]"></a>创建、打开文件：$ vi [filename]</h5><p>（1）使用 vi 加 文件路径（或文件名）的模式打开文件，如果文件存在则打开现有文件，如果文件不存在则新建文件，并在终端最下面一行显示打开的是一个新文件。</p>
-<p>（2）键盘输入字母 “i”或“Insert”键进入最常用的插入编辑模式。</p>
-<h5 id="保存文件："><a href="#保存文件：" class="headerlink" title="保存文件："></a>保存文件：</h5><p>（1）在插入编辑模式下编辑文件。</p>
-<p>（2）按下 “ESC” 键，退出编辑模式，切换到命令模式。</p>
-<p>（3）在命令模式下键入”ZZ”或者”:wq”保存修改并且退出 vi 。</p>
-<p>（4）如果只想保存文件，则键入”:w”，回车后底行会提示写入操作结果，并保持停留在命令模式。</p>
-<h5 id="放弃所有文件修改："><a href="#放弃所有文件修改：" class="headerlink" title="放弃所有文件修改："></a>放弃所有文件修改：</h5><p>（1）放弃所有文件修改：按下 “ESC” 键进入命令模式，键入 “:q!” 回车后放弃修改并退出vi。</p>
-<p>（2）放弃所有文件修改，但不退出 vi ，即回退到文件打开后最后一次保存操作的状态，继续进行文件操作：按下 “ESC” 键进入命令模式，键入 “:e!” ，回车后回到命令模式。</p>
-<h4 id="Git-常用命令"><a href="#Git-常用命令" class="headerlink" title="Git 常用命令"></a>Git 常用命令</h4><p>1.添加文件，可反复多次使用，添加多个文件<br>git add <file> </file></p>
-<p>2.提交到仓库<br>git commit -m <message></message></p>
-<p>3.查看文件<br>cat readme.txt</p>
-<p>4.查看本地变化<br>git status</p>
-<p>5.HEAD指向的版本就是当前版本，穿梭历史版本。<br>git reset –hard commit_id</p>
-<pre><code>穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
-
-要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
-</code></pre><p>6.命令git checkout – readme.txt意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：</p>
-<pre><code>一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
-
-一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
-
-总之，就是让这个文件回到最近一次git commit或git add时的状态。
-</code></pre><ol start="7">
-<li>git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区</file></li>
-</ol>
-<ol start="8">
-<li><p>rm test.txt 删除工作区<br>git rm test.txt 删除版本库中文件<br>git commit -m “remove test.txt”</p>
-<p>注：删错了，版本库里还有，可把误删的文件恢复到最新版本<br>git checkout – test.txt</p>
-<p>git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。</p>
-</li>
-<li><p>关联远程库<br> git remote add origin git@server-name:path/repo-name.git；</p>
-<p> 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；</p>
-<p> 每次本地提交后，git push origin master推送最新修改；</p>
-</li>
-<li><p>分支</p>
-<p>查看分支</p>
-<pre><code>git branch
-</code></pre><p>创建分支</p>
-<pre><code>创建并切换分支
-git checkout -b dev
-
-git checkout命令加上-b参数表示创建并切换，相当于以下两条命令
-创建
-git branch dev
-切换
-git checkout dev
-</code></pre><p>切换分支</p>
-<pre><code>git checkout master
-</code></pre><p>合并分支 : 把dev分支的修改合并到master分支上</p>
-<pre><code>git merge dev
-git merge命令用于合并指定分支到当前分支
-</code></pre><p>删除分支</p>
-<pre><code>git branch -d dev
-</code></pre></li>
-<li><p>git stash<br>把当前修改“储藏”起来，等以后恢复现场后继续工作</p>
-<p>查看stash的内容<br>git stash list</p>
-</li>
-</ol>
-<pre><code>恢复stash的内容
-一是用git stash apply恢复，但是恢复后，stash内容并不删除，需要用git stash drop来删除；
-
-另一种方式是用git stash pop，恢复的同时把stash内容也删了：
-
-可以多次stash，恢复的时候，先用git stash list查看，然后恢复指定的stash
-</code></pre><ol start="11">
-<li></li>
-</ol>
+        <h4 id="1-Vue的生命周期"><a href="#1-Vue的生命周期" class="headerlink" title="1. Vue的生命周期"></a>1. Vue的生命周期</h4><p>​    简单的说生命周期就是事物从产生到消失的一个时间过程。那么vue的生命周期就是从其被创建到销毁的过程，其中包含了开始创建、初始化数据、编译模板、挂载dom（渲染） ，渲染-&gt;更新-&gt;渲染、销毁（卸载）等一系列过程。<br>​    那么其中的钩子函数都担负着自己的职责，较为常用的就是created和mounted函数，可以在函数中编写相关的业务逻辑。</p>
+<h4 id="2-钩子函数"><a href="#2-钩子函数" class="headerlink" title="2. 钩子函数"></a>2. 钩子函数</h4><h5 id="beforeCreate"><a href="#beforeCreate" class="headerlink" title="beforeCreate"></a>beforeCreate</h5><p>在实例初始化之后，数据观测和事件、生命周期初始化配置之前被调用。</p>
+<h5 id="created"><a href="#created" class="headerlink" title="created"></a>created</h5><p>实例已经创建完成之后被调用。在这一步，实例已完成以下的配置：数据观测，属性和方法的运算，事件回调。然而，挂载阶段还没开始，$el 属性目前不可见。</p>
+<h5 id="beforeMount"><a href="#beforeMount" class="headerlink" title="beforeMount"></a>beforeMount</h5><p>在挂载开始之前被调用：相关的 render 函数首次被调用，此时有了虚拟DOM。</p>
+<h5 id="mounted"><a href="#mounted" class="headerlink" title="mounted"></a>mounted</h5><p>el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用该钩子，渲染为真实DOM。</p>
+<h5 id="beforeUpdate"><a href="#beforeUpdate" class="headerlink" title="beforeUpdate"></a>beforeUpdate</h5><p>在数据更新之前时调用，发生在虚拟 DOM 重新渲染和打补丁之前。 你可以在这个钩子中进一步地更改状态，这不会触发附加的重渲染过程。</p>
+<h5 id="updated"><a href="#updated" class="headerlink" title="updated"></a>updated</h5><p>由于数据更改导致的虚拟 DOM 重新渲染和打补丁，在这之后会调用该钩子。<br>当这个钩子被调用时，组件 DOM 已经更新，所以你现在可以执行依赖于 DOM 的操作。然而在大多数情况下，你应该避免在此期间更改状态，因为这可能会导致更新无限循环。<br>值得注意的是：该钩子在服务器端渲染期间不被调用。</p>
+<h5 id="beforeDestroy"><a href="#beforeDestroy" class="headerlink" title="beforeDestroy"></a>beforeDestroy</h5><p>实例销毁之前调用。此时，实例仍然是可用的。</p>
+<h5 id="destroyed"><a href="#destroyed" class="headerlink" title="destroyed"></a>destroyed</h5><p>vue 实例销毁后调用。调用后，vue 实例指示的所有东西都会解绑，所有的事件监听器会被卸载移除，所有的子实例也会被销毁。</p>
+<p><img src="https://github.com/tiansili/tiansili.github.io/raw/master/images/vue生命周期.png" alt="vue生命周期" title="vue生命周期"></p>
 
       
     </div>
@@ -429,7 +371,7 @@ git merge命令用于合并指定分支到当前分支
       
         <div class="post-tags">
           
-            <a href="/tags/Git/" rel="tag"># Git</a>
+            <a href="/tags/vue/" rel="tag"># vue</a>
           
         </div>
       
@@ -442,18 +384,14 @@ git merge命令用于合并指定分支到当前分支
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/09/30/第一篇博客/" rel="next" title="第一篇博客">
-                <i class="fa fa-chevron-left"></i> 第一篇博客
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/03/10/B-1-Vue生命周期/" rel="prev" title="Vue生命周期">
-                Vue生命周期 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/09/30/第一篇博客/" rel="prev" title="第一篇博客">
+                第一篇博客 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -586,7 +524,7 @@ git merge命令用于合并指定分支到当前分支
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#关键字-vim或vi的使用"><span class="nav-number">1.</span> <span class="nav-text">关键字 vim或vi的使用</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#vi-amp-vim-有两种工作模式："><span class="nav-number">1.1.</span> <span class="nav-text">vi &amp; vim 有两种工作模式：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#创建、打开文件：-vi-filename"><span class="nav-number">1.2.</span> <span class="nav-text">创建、打开文件：$ vi [filename]</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#保存文件："><span class="nav-number">1.3.</span> <span class="nav-text">保存文件：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#放弃所有文件修改："><span class="nav-number">1.4.</span> <span class="nav-text">放弃所有文件修改：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Git-常用命令"><span class="nav-number">2.</span> <span class="nav-text">Git 常用命令</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Vue的生命周期"><span class="nav-number">1.</span> <span class="nav-text">1. Vue的生命周期</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-钩子函数"><span class="nav-number">2.</span> <span class="nav-text">2. 钩子函数</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#beforeCreate"><span class="nav-number">2.1.</span> <span class="nav-text">beforeCreate</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#created"><span class="nav-number">2.2.</span> <span class="nav-text">created</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#beforeMount"><span class="nav-number">2.3.</span> <span class="nav-text">beforeMount</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#mounted"><span class="nav-number">2.4.</span> <span class="nav-text">mounted</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#beforeUpdate"><span class="nav-number">2.5.</span> <span class="nav-text">beforeUpdate</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#updated"><span class="nav-number">2.6.</span> <span class="nav-text">updated</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#beforeDestroy"><span class="nav-number">2.7.</span> <span class="nav-text">beforeDestroy</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#destroyed"><span class="nav-number">2.8.</span> <span class="nav-text">destroyed</span></a></li></ol></li></ol></div>
             
 
           </div>
